@@ -1,0 +1,71 @@
+/* Global  */
+  body {
+    /* background: linear-gradient(#192231, #003A67,#98878f); */
+    background: rgba(17, 20, 24, 0.87);
+    color: whitesmoke;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  .skill-img{
+    height: 45px;
+    width: 45px
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+  .fonty{
+    font-family: 'Neucha', cursive;
+    font-size: 60px;
+  }
+  nav {
+    height: 80px;
+    /* padding-bottom: 20px 0; */
+    /* margin: 10px 0; */
+  }
+  .nav-wrapper {
+    background-color: #192231;
+    /* padding: 10px 0;  */
+  }
+
+  .menuIcon {
+    font-size: 80px
+  }
+
+  .slider-image{
+    height: 80px;
+    width: 80px;
+  }
+
+  .borders{
+    border-color: white;
+    border-width: 1px;
+  }
+  .card-image{
+    height: 250ppx;
+  }
+
+  h2 {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .portfolio-section img{
+    opacity: .3;
+  }
+
+  .right-margin{
+    margin-right: 10px;
+  }
+
+  .bottom-margin{
+    margin-bottom: 30px;
+  }
+
+/* Footer */
+  .page-footer{
+    background-color: transparent;
+  }
+/* use this color for icons 5FA3D4 */
