@@ -42,7 +42,9 @@
         <i class="small material-icons right-align">account_circle<span> ABOUT ME</span></i>
           <p class="about">Full Stack Web Developer with a background in finance and accounting. I started with financial applications and access databases and have now grown into full stack development. I love building things software!</p>
           <br>
-          <a href="">Contact Me</a>
+          <a href="#modal1" class="modal-trigger">Contact Me</a> ||
+          <a href="#modal2" class="modal-trigger">Current Resume</a> ||
+          <a href="#modal3" class="modal-trigger">Bio</a>
         <br></br>
         <i class="small material-icons right-align">build<span> TOOLS/SKILLS</span></i>
           <br><br>
@@ -128,6 +130,81 @@
     </div>
   </container>
 
+  <!-- Modal -->
+    <!-- Contact Modal -->
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+          <div class="row">
+              <form class="col s12">
+                <div class="row">
+                  <div class="input-field col s6">
+                    <i class="material-icons prefix">account_circle</i>
+                    <input id="icon_prefix" type="text" class="validate">
+                    <label for="icon_prefix">First Name</label>
+                  </div>
+                  <div class="input-field col s6">
+                    <i class="material-icons prefix">phone</i>
+                    <input id="icon_telephone" type="tel" class="validate">
+                    <label for="icon_telephone">Telephone</label>
+                  </div>
+                </div>
+
+                <!-- Email field -->
+                <div class="row">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">email</i>
+                      <input id="email" type="email" class="validate">
+                      <label for="email">Email</label>
+                      <span class="helper-text" data-error="wrong" data-success="right">Best e-mail to contact you with a response</span>
+                    </div>
+                  </div>
+
+                  <!-- Text Area -->
+                  <div class="row">
+                      <form class="col s12">
+                        <div class="row">
+                          <div class="input-field col s12">
+                              <i class="material-icons prefix">short_text</i>
+                            <textarea id="textarea1" class="materialize-textarea"></textarea>
+                            <label for="textarea1">Request</label>
+                          </div>
+                        </div>
+                      </form>
+                    </div>                  
+              </form>
+            </div>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+      </div>
+    </div>
+
+    <!-- Contact Modal -->
+    <div id="modal2" class="modal">
+      <div class="modal-content">
+          <iframe width="800" height="500" frameborder="0" allowfullscreen src="https://docs.google.com/document/d/e/2PACX-1vTi-MI7Gt-8vOtXsTBQZyi57RWIqlx3kT0_B28PSg6Pl-o2jlXNlVN5nMkSPeToCJu7OH17nsPtJ_Z6/pub?embedded=true" ></iframe>
+      </div>
+
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+      </div>
+    </div>
+
+    <div id="modal3" class="modal">
+        <div class="modal-content light-blue darken-4">
+          <p>I was born in Cuba and my first interactions with technology happened with an 80s Atari that kept breaking down. I remember my Uncle helping me rewire the controllers and the inside of the system. Since then, I have loved working on technology.</p>
+             
+          <p> Although I studied business and finance, I always find myself working on systems, software and technology. While I studied at Georgia Tech I kept my finances afloat by starting my own tech suppport business "tidyPC." After that I was hired by Lockheed Martin to negotiate C-130 contracts. I ended up a Microsft Access database to track all their contracts. This was my first experience with development of in a Professional environment. I made the front end and wrote all the SQL that supported the application. <p>
+            
+          <p>I now work as a Financial Systems manager for a food chemicals company. I created a few applications for this company. The most important was a strategy and budgeting tool also running in Access. This did all of the company financials over a 5 year period and required a great amount of SQL and integration with legacy systems.</p>
+          
+          <p>Most recently, I completed a Full Stack Development bootcamp that has allowed me to improve my skillset beyond databases. I have thoroughly enjoyed developing full stack application that bring together database, javascript and a web based front end. Please see my portfolio for some of my recent work</p>
+        </div>
+        <div class="modal-footer blue-grey lighten-4">
+          <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>  
+      </div>
+
  
   <!-- {{!-- MATERIALIZE FOOTER --}} -->
   <footer class="page-footer footer-fixed">
@@ -165,6 +242,7 @@
 
 <script>  $(document).ready(function(){
     $('.slider').slider();
+    $('.modal').modal();
   });
         
 </script>
