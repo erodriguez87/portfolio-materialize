@@ -68,5 +68,8 @@
 /* Footer */
   .page-footer{
     background-color: transparent;
+    clear: both;
+    margin-top: 20px;
+    padding-top: 30px;
   }
 /* use this color for icons 5FA3D4 */
