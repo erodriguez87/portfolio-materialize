@@ -36,8 +36,8 @@
   }
 
   .slider-image{
-    height: 80px;
-    width: 80px;
+    -webkit-filter:grayscale(10%) brightness(50%) blur(1px);
+    filter: grayscale(10%) brightness(50%) blur(1px);
   }
 
   .borders{
@@ -46,6 +46,7 @@
   }
   .card-image{
     height: 250ppx;
+
   }
 
   h2 {
@@ -53,7 +54,7 @@
   }
 
   .portfolio-section img{
-    opacity: .3;
+    opacity: .7;
   }
 
   .right-margin{
